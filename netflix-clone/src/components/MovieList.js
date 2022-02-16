@@ -35,9 +35,9 @@ function MovieList(props) {
                     </Button>  */}
                     {element.overview.slice(0, 150)} ....
                   </Card.Text>
-                  <div class="col-md-12 text-center">
-                    <Button variant="primary">more</Button>{" "}
-                    <Button variant="primary" onClick={()=>{setshow(true);setMovie(element)}}>add favarite</Button>
+                  <div className="col-md-12 text-center">
+                    {/* <Button variant="primary">more</Button>{" "} */}
+                    <Button variant="primary" onClick={()=>{setshow(true);setMovie(element)}}>show movie</Button>
                   </div>
                 </Card.Body>
               </Card>
